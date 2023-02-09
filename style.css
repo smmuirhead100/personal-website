@@ -1,15 +1,25 @@
+body {
+    background-color: beige;
+    padding: 0px;
+    margin: 0px;
+}
 .upper-bar {
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    background: lightgray;
     display: flex;
-    margin-top: 0px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .upper-bar > h2 {
-    flex: 1;
+    flex: 2;
     text-align: center;
+    align-items: end;
     background-color: beige;
     padding: 20px;
-    border: none;
-    margin-top: none;
+    width: 50px;
 }
 
 .name {
